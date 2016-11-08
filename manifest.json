@@ -1,0 +1,41 @@
+{
+	"background": {
+		"scripts": ["static/scripts/background.js"]
+	},
+	"name" : "Hi-QRCode",
+	"version" : "2.0.1",
+	"description" : "将当前网址转成二维码供移动设备扫描 - http://fulicat.com/lab",
+	"icons": {
+		"19": "static/icons/ico_19.png",
+		"28": "static/icons/ico_28.png",
+		"38": "static/icons/ico_38.png",
+		"48": "static/icons/ico_48.png",
+		"128": "static/icons/ico_128.png"
+	},
+	"homepage_url": "http://fulicat.com",
+	"manifest_version": 2,
+	"page_action": {
+		"default_icon": {
+			"19": "static/icons/ico_19.png",
+			"28": "static/icons/ico_28.png",
+			"38": "static/icons/ico_38.png",
+			"48": "static/icons/ico_48.png",
+			"128": "static/icons/ico_128.png"
+		},
+		"default_popup": "static/pages/popup.html",
+		"default_title": "Hi-QRCode"
+	},
+	"permissions": [
+		"http://*/*",
+		"https://*/*",
+		"background",
+		"browsingData",
+		"tabs",
+		"contextMenus",
+		"webRequest",
+		"webRequestBlocking",
+		"webNavigation",
+		"unlimitedStorage",
+		"notifications"
+	]
+}
